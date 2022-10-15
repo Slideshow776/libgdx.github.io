@@ -277,6 +277,8 @@ Often many cells have the same properties, so setting the default properties for
 
 ![images/defaults.png](/assets/wiki/images/defaults.png)
 
+If you want to reset the defaults you can use `defaults().reset()`
+
 ### Column defaults
 
 The `columnDefaults` method on the table returns a cell whose properties are the **defaults for all cells in that column**. Any properties set here will override the cell default properties. Columns are indexed starting at 0.
